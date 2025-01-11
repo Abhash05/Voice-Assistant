@@ -86,7 +86,7 @@ def friend_mode():
             continue
 
         client=OpenAI(
-            api_key="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"
+            api_key="Add-Your-key"
         )
         completion = client.chat.completions.create(
             model="gpt-4o-mini",
