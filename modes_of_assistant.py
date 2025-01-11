@@ -52,7 +52,7 @@ def aiProcess(c):
     return completion.choices[0].message.content
 
 def google_search_api(query):
-    api_key = "78b0d300431be4c198433694c5d154ec3e5ca8ba5223ccb2d3c05bc775c8dab5"  # Replace with your actual SerpAPI key
+    api_key = "Add-Your-key"  # Replace with your actual SerpAPI key
     url = f"https://serpapi.com/search.json?q={query}&api_key={api_key}"
     response = requests.get(url)
     
