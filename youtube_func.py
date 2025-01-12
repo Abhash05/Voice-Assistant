@@ -35,5 +35,5 @@ def short_screen():
     time.sleep(1.2)
 
 def skip_ad():
-    pyautogui.click(1159,699)
+    pyautogui.click(100,100)        #Add your coordinates accordingly. Using pyautogui.position() 
     time.sleep(1.2)
