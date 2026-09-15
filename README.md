@@ -4,7 +4,7 @@ A Python-based desktop voice assistant that listens for spoken commands, answers
 
 Platform: Windows. Several system-control features use Windows-specific APIs and commands.
 
-Features
+Features:
 
 Speech recognition through the system microphone
 
@@ -28,7 +28,7 @@ YouTube controls: pause/resume, full screen, exit full screen, and skip ads
 
 Windows power controls: shut down, restart, and sleep
 
-Project Structure
+Project Structure:
 
 Voice-Assistant/
 ├── main.py                 # Main listening loop and command routing
@@ -37,7 +37,7 @@ Voice-Assistant/
 ├── youtube_func.py         # YouTube search and playback controls
 └── README.md
 
-Technologies Used
+Technologies Used:
 
 Python
 
@@ -61,7 +61,7 @@ PyAutoGUI
 
 Pycaw, comtypes, and screen-brightness-control
 
-Installation
+Installation:
 
 1. Clone the repository
 
@@ -107,7 +107,7 @@ OPENWEATHER_API_KEY=your_key
 NEWS_API_KEY=your_key
 SERPAPI_API_KEY=your_key
 
-Usage
+Usage:
 
 Run the main program:
 
@@ -129,7 +129,7 @@ Consultancy mode
 
 Power commands such as shutdown, restart, and sleep directly affect the computer. Use them carefully.
 
-Current Limitations
+Current Limitations:
 
 Designed primarily for Windows
 
@@ -141,7 +141,7 @@ Speech recognition accuracy varies with noise, microphone quality, and pronuncia
 
 Some browser and YouTube controls depend on the active window and screen layout
 
-Future Improvements
+Future Improvements:
 
 Move all credentials to environment-based configuration
 
@@ -155,12 +155,12 @@ Add a graphical interface
 
 Support Linux and macOS where possible
 
-Author
+Author:
 
 Abhash Kishore Naik
 
 GitHub: Abhash05
 
-License
+License:
 
 No license has been added yet. Until a license is provided, the source remains copyrighted by the author and is not automatically available for reuse or redistribution.
